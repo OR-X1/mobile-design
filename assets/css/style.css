@@ -1,0 +1,42 @@
+
+:root {
+    --primary: #303189;
+    --primary-10: #3031891f;
+    --gray90: #909090;
+    --border-pill: 50rem;
+  }
+
+.text-primary{
+    color: var(--primary) !important;
+}
+
+.text-gray90{
+    color: var(--gray90) !important;
+}
+
+.shadow{
+    box-shadow: 0px 1px 4px #00000033 !important;
+}
+
+.navigate-shadow{
+    box-shadow: 0px 0px 4px #00000033 !important;
+}
+
+.btn-active{
+    background-color: var(--primary) !important;
+    color: #ffffff !important;
+}
+
+.navigate-active{
+    background-color: var(--primary-10) !important;
+    color: #ffffff !important;
+}
+
+.rounded-top {
+    border-top-left-radius: var(--border-pill)!important;
+    border-top-right-radius: var(--border-pill)!important;
+}
+
+.content{
+    padding: 150px 0 80px !important;
+}
